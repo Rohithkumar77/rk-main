@@ -1,0 +1,177 @@
+.circles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(13, 246, 13);
+    margin: 10px;
+}
+
+.card1 {
+    margin-top: 58px;
+    margin-bottom: 10px;
+
+}
+
+.pro {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.ol {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ci {
+    height: 200px;
+    position: absolute;
+    filter: blur(5px);
+}
+
+.btn {
+    margin-top: 60px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-around;
+    ;
+}
+
+.cdimg {
+    height: 150px;
+}
+
+.h11 {
+    padding: 30px;
+    color: #ecf1f3;
+}
+
+.h44 {
+    font-size: 22px;
+    color: #8b8a91;
+    padding: 20px;
+}
+
+.h444 {
+    font-size: 2rem;
+    color: rgb(231, 230, 236);
+    padding: 15px;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p0 {
+    font-size: .85rem;
+    color: #8b8a91;
+    border: 1px solid #03010f;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #14131a;
+}
+
+.p2 {
+    font-size: .85rem;
+    color: #8b8a91;
+    border: 1px solid #2f0eee;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #14131a;
+}
+
+.p1 {
+    font-size: .85rem;
+    color: #8b8a91;
+    border: 1px solid #ee0e0e;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #14131a;
+}
+
+.p3 {
+    font-size: .85rem;
+    color: #8b8a91;
+    border: 1px solid #b6ee0e;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #14131a;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Existing styles for .main1 */
+.main3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prog {
+    background-color: #14f274;
+    height: 5px;
+    width: 30px;
+}
+
+.prog2 {
+    background-color: rgb(16, 242, 114);
+    height: 5px;
+    width: 90px;
+}
+
+.main4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ins {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p11 {
+    font-size: 18px;
+    color: #ecf1f3;
+    padding-left: 10px;
+}
+
+.sm {
+    text-decoration: none;
+}
+
+
+.main5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    padding: 50px;
+}
