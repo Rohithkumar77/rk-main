@@ -53,16 +53,23 @@
 .h11 {
     padding: 30px;
     color: #ecf1f3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h13 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .h44 {
     font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #8b8a91;
     padding: 20px;
 }
 
 .h444 {
     font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(231, 230, 236);
     padding: 15px;
 }
@@ -122,16 +129,42 @@
     justify-content: space-around;
 }
 
+@media (max-width: 900px) {
+    .main1 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .main2 {
     display: flex;
     justify-content: space-around;
 }
 
+/* Media query for responsive design */
+@media (max-width: 900px) {
+    .main2 {
+        flex-direction: column;
+        /* Stack cards vertically */
+        align-items: center;
+        /* Center cards on smaller screens if needed */
+    }
+}
 
 /* Existing styles for .main1 */
 .main3 {
     display: flex;
     justify-content: space-around;
+}
+
+/* Media query for responsive design */
+@media (max-width: 900px) {
+    .main3 {
+        flex-direction: column;
+        /* Stack cards vertically */
+        align-items: center;
+        /* Center cards on smaller screens if needed */
+    }
 }
 
 .prog {
@@ -151,6 +184,13 @@
     justify-content: space-around;
 }
 
+@media (max-width: 900px) {
+    .main4 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .ins {
     display: flex;
     justify-content: space-evenly;
@@ -158,6 +198,7 @@
 
 .p11 {
     font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ecf1f3;
     padding-left: 10px;
 }
@@ -170,6 +211,13 @@
 .main5 {
     display: flex;
     justify-content: space-around;
+}
+
+@media (max-width: 900px) {
+    .main5 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .icons {
